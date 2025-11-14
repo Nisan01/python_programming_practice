@@ -37,3 +37,21 @@ m=a.copy()
 m[1]=22
 print(a)
 print(m,"here is change")
+
+#remove(x),it removes the first occurence in the list
+#insert(1,55),it adds or insert the value 55 at index 1
+
+print(list)
+list.insert(1,55)
+
+print(list)
+
+
+list2=[200,500]
+
+list.extend(list2)
+print(list)
+
+#using concatination
+
+print(list+list2,"after concatination")
