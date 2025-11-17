@@ -35,3 +35,8 @@ animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow"
 print(animals[1:8])
 print(animals[1:8:3])
 
+
+#tuple method like index()
+Tuple = (0, 1, 2, 3, 2, 3, 1, 3, 2)
+res = Tuple.index(3)
+print('First occurrence of 3 is', res)
