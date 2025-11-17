@@ -29,10 +29,10 @@ def average_numbers(*numbers):
 average_numbers(4,5,7,8,9)
 average_numbers(2,3)
 
-#time for dictionery in arguments
+#time for dictionary in arguments
 
-def dictionery_arguments(**person):
+def dictionary_arguments(**person):
     print(f"This is\n{person['fname']} {person['age']} {person['address']}")
 
 
-dictionery_arguments(fname="Nishan",age="22",address="Chabahil")
+dictionary_arguments(fname="Nishan",age="22",address="Chabahil")

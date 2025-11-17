@@ -43,3 +43,13 @@ print(reverse_string("nishan"))
 name2="Rajesh"
 print(name2[1:])
 
+
+def fibonacci_series_recursion(number):
+    if number <= 1:
+        return number
+    else:
+        return fibonacci_series_recursion(number-1)+fibonacci_series_recursion(number-2)
+
+
+x=fibonacci_series_recursion(3)
+print(x)

@@ -30,7 +30,7 @@ print(b)
 
 '''
 
-#for loop with dictionery
+#for loop with dictionary
 
 list={"name":"nishan","age":"10","address":"kathmandu"}
 
