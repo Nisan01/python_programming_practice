@@ -1,6 +1,14 @@
 #reversing a string in python !!!
 
 a="nishan"
+d="chauhan"
+
+e=a[0:3]+d[4:7]
+print(e)
+
+e=a+d
+print(e)
+
 b=589548
 print(a[-1])
 
