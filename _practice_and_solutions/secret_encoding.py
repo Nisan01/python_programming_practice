@@ -18,7 +18,7 @@ import random
 import string
 
 
-message="Samrachana"
+message=input("Enter a word")
 print("Before Encoding",message)
 
 #message encoding 
